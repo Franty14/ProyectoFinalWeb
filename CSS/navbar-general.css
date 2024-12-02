@@ -33,7 +33,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-    background: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para el menú */
+    background: rgba(0, 0, 0, 0.7); 
 }
 
 .navbar-nav {
@@ -87,24 +87,24 @@ body {
 /* Navbar siempre con fondo semi-transparente */
 .navbar {
     background-color: rgba(0, 0, 0, 0.9) !important; /* Fondo semitransparente */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); /* Sombra */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); 
 }
 
-/* Ajustes para el logo y la cresta (posición de los elementos) */
 
-/* Mobile-first: la cresta se coloca sobre el logo en dispositivos pequeños */
+
+
 .navbar .logo {
-    top: 15px; /* La cresta se sitúa sobre el logo */
+    top: 15px;
 }
 
 .navbar .logo img {
-    max-width: 80px; /* Ajuste el tamaño de la cresta */
+    max-width: 80px; 
 }
 
 .navbar #title img {
     position: relative;
-    z-index: 5; /* Logo de Ginkō debajo de la cresta */
-    max-width: 120px; /* Ajuste del tamaño del logo principal */
+    z-index: 5;
+    max-width: 120px; 
 }
 
 /* Pantallas más grandes */
@@ -115,26 +115,30 @@ body {
     }
 
     .navbar .logo img {
-        max-width: 90px; /* Tamaño mayor de la cresta en tablets */
+        max-width: 90px; 
     }
 
     .navbar #title img {
-        max-width: 130px; /* Tamaño del logo principal en tablets */
+        max-width: 130px; 
     }
 }
 
 @media (min-width: 992px) {
+    #language-selector {
+        width: 5%;
+        font-size: 14px; 
+    }
     /* Ajustes en escritorios */
     .navbar .logo {
-        top: 25px; /* Ajuste para escritorios */
+        top: 25px;
     }
 
     .navbar .logo img {
-        max-width: 100px; /* Tamaño original de la cresta en escritorios */
+        max-width: 100px;
     }
 
     .navbar #title img {
-        max-width: 150px; /* Tamaño del logo principal en escritorios */
+        max-width: 150px;
     }
 
     /* Navbar collapse */
@@ -148,6 +152,7 @@ body {
     .navbar-nav {
         flex-direction: row;
         justify-content: flex-end;
+        margin-right: 30px;
         gap: 20px;
     }
 
@@ -167,4 +172,33 @@ body {
     .navbar #title img {
         max-width: 110px; /* Tamaño más pequeño del logo en móviles */
     }
+}
+
+
+/* Estilos base - Mobile First */
+#language-selector {
+    width: 100%; /* Ocupa todo el ancho del contenedor en móviles */
+    max-width: 200px; /* Tamaño máximo para pantallas grandes */
+    padding: 8px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente claro */
+    border: 1px solid #fff; /* Borde blanco */
+    background-color: transparent; /* Fondo transparente */
+    color: #fff; /* Texto blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    appearance: none; /* Estilo nativo desactivado */
+    margin: 5px auto; /* Centrado */
+}
+
+
+/* Estado de enfoque (cuando el campo está activo) */
+#language-selector:focus {
+    outline: none; 
+}
+
+#language-selector option {
+    background-color: transparent; 
+    color: #000; 
+    padding: 10px; 
+    font-size: 14px; 
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
