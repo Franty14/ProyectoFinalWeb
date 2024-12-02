@@ -1,0 +1,170 @@
+/* General */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(0, 0, 0, 0.1); /* Fondo oscuro */
+    color: #070707; /* Texto negro */
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: transparent !important; /* Fondo transparente */
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+    z-index: 1050;
+}
+
+.navbar-collapse {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para el menú */
+}
+
+.navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar-nav li {
+    padding: 5px 0;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Hover colors */
+.navbar-nav li:nth-child(1) .nav-link:hover {
+    border-bottom: 2px solid #65C8F3;
+}
+
+.navbar-nav li:nth-child(2) .nav-link:hover {
+    border-bottom: 2px solid #F9B461;
+}
+
+.navbar-nav li:nth-child(3) .nav-link:hover {
+    border-bottom: 2px solid #B271AD;
+}
+
+.navbar-nav li:nth-child(4) .nav-link:hover {
+    border-bottom: 2px solid #65C8F3;
+}
+
+.navbar-nav li:nth-child(5) .nav-link:hover {
+    border-bottom: 2px solid #F9B461;
+}
+
+.navbar-nav li:nth-child(6) .nav-link:hover {
+    border-bottom: 2px solid #B271AD;
+}
+
+.nav-link:hover {
+    color: #F8B461;
+}
+
+/* Navbar siempre con fondo semi-transparente */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9) !important; /* Fondo semitransparente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); /* Sombra */
+}
+
+/* Ajustes para el logo y la cresta (posición de los elementos) */
+
+/* Mobile-first: la cresta se coloca sobre el logo en dispositivos pequeños */
+.navbar .logo {
+    top: 15px; /* La cresta se sitúa sobre el logo */
+}
+
+.navbar .logo img {
+    max-width: 80px; /* Ajuste el tamaño de la cresta */
+}
+
+.navbar #title img {
+    position: relative;
+    z-index: 5; /* Logo de Ginkō debajo de la cresta */
+    max-width: 120px; /* Ajuste del tamaño del logo principal */
+}
+
+/* Pantallas más grandes */
+@media (min-width: 768px) {
+    /* Ajustes en tablets */
+    .navbar .logo {
+        top: 20px; /* Ajuste para tablets */
+    }
+
+    .navbar .logo img {
+        max-width: 90px; /* Tamaño mayor de la cresta en tablets */
+    }
+
+    .navbar #title img {
+        max-width: 130px; /* Tamaño del logo principal en tablets */
+    }
+}
+
+@media (min-width: 992px) {
+    /* Ajustes en escritorios */
+    .navbar .logo {
+        top: 25px; /* Ajuste para escritorios */
+    }
+
+    .navbar .logo img {
+        max-width: 100px; /* Tamaño original de la cresta en escritorios */
+    }
+
+    .navbar #title img {
+        max-width: 150px; /* Tamaño del logo principal en escritorios */
+    }
+
+    /* Navbar collapse */
+    .navbar-collapse {
+        position: static;
+        background: transparent;
+        padding: 0;
+        justify-content: flex-end;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+}
+
+/* Responsividad: ajustes para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .navbar .logo img {
+        top: 15px; /* Ajuste para dispositivos móviles */
+        max-width: 70px; /* Ajuste de tamaño para la cresta */
+    }
+
+    .navbar #title img {
+        max-width: 110px; /* Tamaño más pequeño del logo en móviles */
+    }
+}

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+/* Mobile-first layout */
+.contactUs {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+}
+
+.contactUs .title {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.contactUs .title h2 {
+    color: #390734;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.contact {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 5px 35px rgb(0, 0, 0, 0.15);
+}
+
+.contact h3 {
+    color: #0e3959;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Form styles */
+.formBox {
+    position: relative;
+    width: 100%;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.inputBox span {
+    color: #B271AD;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.inputBox input,
+.inputBox textarea {
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+}
+
+.inputBox textarea {
+    resize: none;
+    min-height: 120px;
+    margin-bottom: 10px;
+}
+
+.inputBox input[type="submit"] {
+    background: #65C8F3;
+    color: #fff;
+    border: none;
+    font-size: 1.1em;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
+}
+
+/* Layout for larger screens */
+@media (min-width: 768px) {
+    .contactUs {
+        padding: 40px 100px;
+    }
+
+    .contactUs .title {
+        font-size: 2em;
+    }
+
+    .contact h3 {
+        font-size: 1.4em;
+    }
+
+    .formBox {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .inputBox {
+        width: 100%;
+        text-align: center;
+    }
+
+    .inputBox span {
+        margin-top: 10px;
+    }
+
+    .formBox .row100 .inputBox {
+        width: 100%;
+    }
+
+    .inputBox input[type="submit"] {
+        max-width: none;
+    }
+}
+
+/* Flexbox for smaller screens */
+@media (max-width: 767px) {
+    .formBox {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+

@@ -1,0 +1,202 @@
+/* General */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(0, 0, 0, 0.1); /* Fondo oscuro */
+    color: #070707; /* Texto negro */
+}
+
+/* Encabezado */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 50px;
+}
+
+#title img {
+    height: 40px;
+    transition: height 0.3s ease;
+}
+
+/* Comportamiento en scroll: al hacer scroll, la cresta se mueve al centro, sobre el nombre */
+.scrolled .logo {
+    position: absolute;
+    top: 0px;
+    left: 3.3%;
+    transform: translate(-10%, 0%);
+    z-index: 2;
+}
+
+.scrolled .logo img {
+    height: 30px; /* Tamaño reducido cuando está sobre el nombre */
+}
+
+.scrolled #title {
+    margin-top: 20px; /* Espacio aumentado para que la cresta esté más separada del nombre */
+}
+
+.scrolled #title img {
+    height: 28px; /* Tamaño reducido del nombre cuando está en estado scrolled */
+}
+
+/* Sección Principal (Mobile First) */
+.banner {
+    position: relative;
+    height: 80vh; /* Altura ajustada para móviles */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    overflow: hidden;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.banner h1 {
+    font-size: 1.8rem; /* Texto más pequeño para móviles */
+    color: white;
+    z-index: 2;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+#fondoSeccion1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+/* Ajustes para pantallas grandes */
+@media (min-width: 768px) {
+    .banner {
+        height: 90vh; /* Mayor altura en tablets */
+    }
+
+    .banner h1 {
+        font-size: 2.2rem; /* Texto más grande */
+    }
+}
+
+@media (min-width: 992px) {
+    .banner {
+        height: 100vh; /* Ocupa toda la pantalla */
+    }
+
+    .banner h1 {
+        font-size: 2.5rem; /* Texto más grande */
+    }
+}
+
+/* Carousel */
+.carousel img {
+    width: 100%;
+    height: 300px; /* Tamaño fijo para móviles */
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    z-index: 10;
+    width: 90%;
+    max-width: 800px;
+}
+
+.carousel-caption h5 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #F8B461;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 0.7rem;
+    color: #eaeaea;
+    line-height: 1.5;
+}
+
+/* Ajustes para tablets */
+@media (min-width: 768px) {
+    .carousel img {
+        height: 500px; /* Aumenta la altura en tablets */
+    }
+
+    .carousel-caption {
+        width: 80%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+
+/* Ajustes para escritorios */
+@media (min-width: 992px) {
+    .carousel img {
+        height: 100vh; /* Ocupa toda la pantalla en escritorios */
+    }
+
+    .carousel-caption {
+        width: 70%;
+        max-width: 1000px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+}
+
+
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .scrolled .logo {
+        left: 50px;
+    }
+}
+

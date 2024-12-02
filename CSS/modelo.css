@@ -1,0 +1,99 @@
+/* Estilos generales para la sección de Modelos */
+
+#Modelos .text-center.mb-4 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #B271AD;
+}
+
+#Modelos h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #65adcc;
+}
+
+#Modelos p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Contenedor y filas */
+.container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Hacer que las imágenes o contenido adicional se ajusten a la pantalla */
+.Content-Ginko img,
+.Content-Bureikõ img,
+.Content-Õbaitori img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+/* Estilos para pantallas más grandes */
+@media (min-width: 576px) {
+    .row {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .Content-Ginko,
+    .Content-Bureikõ,
+    .Content-Õbaitori {
+        flex: 1;
+    }
+
+    #Modelos h2 {
+        font-size: 28px;
+    }
+
+    #Modelos h3 {
+        font-size: 20px;
+    }
+
+    #Modelos p {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .Content-Ginko,
+    .Content-Bureikõ,
+    .Content-Õbaitori {
+        padding: 20px;
+    }
+    
+    #Modelos h2 {
+        font-size: 32px;
+    }
+    
+    #Modelos h3 {
+        font-size: 26px;
+    }
+    
+    #Modelos p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}

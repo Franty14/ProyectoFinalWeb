@@ -1,0 +1,55 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #65C8F3, #F9B461, #B271AD); /* Degradado de arriba a abajo */
+    color: #000;
+  }
+
+  .about h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .about ul {
+    list-style: none;
+    margin: 20px 0;
+  }
+  
+  .about ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .about h2 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  /* Media Queries */
+  @media (min-width: 768px) {
+  
+    .about {
+      padding: 40px;
+    }
+  
+  }
+  
+  @media (min-width: 992px) {
+    .about h1 {
+      font-size: 3rem;
+    }
+  
+    .about h2 {
+      font-size: 2rem;
+    }
+  }
+  

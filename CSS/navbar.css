@@ -1,0 +1,164 @@
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: transparent !important;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+    z-index: 1050;
+}
+
+.navbar-collapse {
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.navbar-collapse.show {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Manejo de colores en hover */
+.navbar-nav li:nth-child(1) .nav-link:hover {
+    border-bottom: 2px solid #65C8F3;
+}
+
+.navbar-nav li:nth-child(2) .nav-link:hover {
+    border-bottom: 2px solid #F9B461;
+}
+
+.navbar-nav li:nth-child(3) .nav-link:hover {
+    border-bottom: 2px solid #B271AD;
+}
+
+.navbar-nav li:nth-child(4) .nav-link:hover {
+    border-bottom: 2px solid #65C8F3;
+}
+
+.navbar-nav li:nth-child(5) .nav-link:hover {
+    border-bottom: 2px solid #F9B461;
+}
+.navbar-nav li:nth-child(6) .nav-link:hover {
+    border-bottom: 2px solid #B271AD;
+}
+
+.navbar-nav li .nav-link {
+    color: #fff; /* Asegúrate de que el color no cambie */
+}
+
+
+.nav-link:hover {
+    color: #F8B461;
+}
+
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.5s ease; /* Suaviza el cambio */
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.9) !important; /* Forzar el fondo semitransparente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); /* Sombra */
+    transition: background-color 0.5s ease; /* Suavizar el cambio */
+}
+
+.navbar.scrolled .nav-link {
+    color: #fff;
+}
+
+/*Selector Idiomas*/
+/* Estilos base - Mobile First */
+#language-selector {
+    width: 100%; /* Ocupa todo el ancho en dispositivos móviles */
+    padding: 10px 15px;
+    font-size: 12px;
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: transparent; /* Fondo transparente */
+    color: #fff; /* Texto oscuro */
+    appearance: none; /* Elimina la apariencia predeterminada del sistema */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    transition: border-color 0.3s ease, color 0.3s ease; /* Transición suave en el borde y color */
+}
+
+/* Estado de enfoque (cuando el campo está activo) */
+#language-selector:focus {
+    outline: none; /* Elimina el borde de enfoque por defecto */
+}
+
+#language-selector option {
+    background-color: transparent; /* Fondo transparente por defecto */
+    color: #000; /* Color de texto por defecto */
+    padding: 10px; /* Espaciado dentro de la opción */
+    font-size: 14px; /* Tamaño de fuente */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Pantallas grandes */
+@media (min-width: 992px) {
+    .navbar-collapse {
+        position: static;
+        background: transparent;
+        color: #ffff;
+        padding: 0;
+        justify-content: flex-end;
+    }
+
+    .navbar {
+        background-color: transparent;
+        transition: background-color 0.5s ease; /* Suaviza el cambio */
+    }
+
+    .navbar.scrolled {
+        background-color: rgba(0, 0, 0, 0.9) !important; /* Forzar el fondo semitransparente */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); /* Sombra */
+        transition: background-color 0.5s ease; /* Suavizar el cambio */
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-right: 30px;
+        gap: 20px;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+
+    .navbar-nav li .nav-link {
+        color: #fff; /* Asegúrate de que el color no cambie */
+    }
+
+    #language-selector {
+        width: 10%; /* En pantallas grandes, ocupa el 50% */
+        font-size: 14px; /* Aumenta el tamaño de la fuente */
+    }
+
+}

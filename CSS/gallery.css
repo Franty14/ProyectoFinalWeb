@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+  }
+
+.gallery {
+    margin-top: 100px;
+    columns: 200px;
+    break-inside: avoid;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+  }
+
+  li {
+    list-style-type:none;
+  }
+  
+  li img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 3px 8px rgba(0,0,0,0.5);
+  }

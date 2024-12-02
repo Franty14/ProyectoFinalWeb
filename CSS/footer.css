@@ -1,0 +1,122 @@
+/* Estilos para el Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+footer .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer .social-icons {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer .social-icon {
+    margin: 10px;
+    font-size: 2.5rem;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+footer .social-icon:hover {
+    color: #007bff; /* Efecto hover */
+}
+
+footer .useful-links {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer .useful-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer .useful-links ul li {
+    margin: 5px 15px;
+}
+
+footer .useful-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+footer .useful-links ul li a:hover {
+    color: #007bff;
+}
+
+footer p {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Mobile First (por defecto para pantallas pequeñas) */
+@media (max-width: 767px) {
+    footer .social-icons {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer .social-icon {
+        font-size: 2rem;
+        margin: 10px 0;
+    }
+
+    footer .useful-links ul {
+        display: block;
+        text-align: center;
+    }
+
+    footer .useful-links ul li {
+        margin-bottom: 10px;
+    }
+
+    footer p {
+        font-size: 0.85rem;
+    }
+}
+
+/* Tablet y pantallas medianas (768px y superiores) */
+@media (min-width: 768px) {
+    footer .social-icon {
+        font-size: 2.2rem;
+    }
+
+    footer .useful-links ul {
+        display: flex;
+    }
+
+    footer .useful-links ul li {
+        margin: 0 20px;
+    }
+}
+
+/* Escritorio y pantallas grandes (1024px y superiores) */
+@media (min-width: 1024px) {
+    footer .social-icons {
+        justify-content: space-evenly;
+    }
+
+    footer .useful-links ul li {
+        margin: 0 25px;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}

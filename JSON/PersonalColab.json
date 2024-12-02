@@ -1,0 +1,70 @@
+{
+    "equipo": [
+        {
+            "nombre": "Manuel Vega Salas",
+            "rol": "Coordinador y Fundador del Proyecto",
+            "descripcion": "Bachiller en Psicología (UCR) y Profesor de piano con más de 11 años de experiencia como docente, psicólogo y gestor de iniciativas comunitarias en diversos espacios.",
+            "imagen": "Image/EquipoTrabajo/Manuel.jpg"
+        },
+        {
+            "nombre": "Esteban Corrales Bermúdez",
+            "rol": "Vocal Coach y apoyo logístico",
+            "descripcion": "Bachiller en Gestión Cultural (UCR) y cursa la Lic. en Administración de la Educación No Formal. Con más de 6 años de experiencia en canto, multimedia, teatro y proyectos de acción social.",
+            "imagen": "Image/EquipoTrabajo/Esteban.png"
+        },
+        {
+            "nombre": "Noemy Cyrman",
+            "rol": "Encargada de Teatro",
+            "descripcion": "Bachiller en Artes Dramáticas y Filología (UCR), cursando la Lic. en artes y maestría en Lingüística. Posee más de 10 años de experiencia en teatro, doblaje, montaje escénico, grabación y edición.",
+            "imagen": "Image/EquipoTrabajo/Noemy.png"
+        },
+        {
+            "nombre": "Mauricio Pereira Vargas",
+            "rol": "Artista plástico multifacético",
+            "descripcion": "Formación en Casa del Artista, Programa Escuela de Música de Goicoechea, cursos de animación Digital en U Creativa y participación en grupos de extensión cultural como la Compañía Folclórica Terruños y UCR Coral.",
+            "imagen": "Image/EquipoTrabajo/Mauricio.jpg"
+        },
+        {
+            "nombre": "Carolina Varela Fonseca",
+            "rol": "Co-Fundadora y Co-Dirección del proyecto",
+            "descripcion": "Violista con 20 años de experiencia en música y 8 en docencia, también es maquillista y tiene formación como cantautora. Estudia artes plásticas UCR y es activista por la pedagogía inclusiva y de género. Miembro de grupos musicales y organizadora de eventos.",
+            "imagen": "Image/EquipoTrabajo/Carolina.jpg"
+        },
+        {
+            "nombre": "Lana María Rimada Quesada",
+            "rol": "Docente y Apoyo en Marketing y Redes Sociales",
+            "descripcion": "Pianista, cantautora, compositora y docente con experiencias en el Instituto Nacional de la Música, etapa básica de la UCR, Academia Omar Arroyo y clases particulares desde el año 2010. Con Formación complementaria en Filosofía de la UCR, y proyección musical en formación docente en la UNA.",
+            "imagen":"Image/EquipoTrabajo/Lana.jpg"
+        },
+        {
+            "nombre": "Luis Ortiz Ugalde",
+            "rol": "Apoyo en Finanzas y presupuestos",
+            "descripcion": "Licenciado en Finanzas y empresario con experiencia demostrada en la industria bancaria y de servicios.",
+            "imagen": "Image/EquipoTrabajo/Luis.jpg"
+        },
+        {
+            "nombre": "Raquel Rodríguez Ramírez",
+            "rol": "Flautista y promotora de la salud",
+            "descripcion": "Bachiller en Música con énfasis en Flauta y en Promoción de la Salud de la UCR. Desde niña ha tenido la posibilidad de hacer arte, pues inicia sus estudios en el Conservatorio Castella. Así mismo, ha llevado formación en locución y teatro, y ha participado en diversas agrupaciones artísticas del país como músico profesional, ejerciendo también como docente.",
+            "imagen": "Image/EquipoTrabajo/Raquel.png"
+        },
+        {
+            "nombre": "Greivin Chaves",
+            "rol": "Facilitador de Dibujo e Ilustración",
+            "descripcion": "Eterno estudiante de las artes con estudios formales en bellas artes y artes musicales en diversos espacios como UCCART, UCR Coral, Estudio Choralia y BMG. Su abordaje pedagógico incluye la técnica, aplicación e historización de obras.",
+            "imagen":"Image/EquipoTrabajo/Greivin.png"
+        },
+        {
+            "nombre": "Kerstin Miranda",
+            "rol": "Cantautora, guitarrista, poetisa y actriz",
+            "descripcion": "Cantautora con formación en Artes Musicales y músicas populares, teatro y expresiones literarias. Ha facilitado procesos de exploración personal y creación, desde una perspectiva crítica y sensible durante muchos años y cree en el potencial creativo de las personas. Además, se interesa por la expresión creativa y la performática.",
+            "imagen": "Image/EquipoTrabajo/Dianne.png"
+        },
+        {
+            "nombre": "Luis Diego Pizarro",
+            "rol": "Artista escénico, cantante, actor y educador",
+            "descripcion": "Su interés por la música inicia desde muy temprana edad, formando parte del programa de etapa básica de piano de la UCR durante su niñez, en coros durante su adolescencia y posteriormente al educarse en diferentes técnicas de danza contemporánea y teatro. Su pasión por las artes integradas lo llevaron a estudiar 9 años en Italia donde, se graduó como cantante lírico y se formó en teatro musical. Actualmente vive también su entusiasmo por la enseñanza impartiendo clases individuales y talleres en academias, así como en su proyecto Estudio Ikigai",
+            "imagen": "Image/EquipoTrabajo/LuisDiego.jpg"
+        }
+    ]
+}

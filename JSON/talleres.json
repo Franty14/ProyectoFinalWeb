@@ -1,0 +1,151 @@
+{
+    "oferta": {
+      "introduccion": "La duración de los cursos es definida según los objetivos de aprendizaje de cada persona...",
+      "areas": [
+        {
+          "nombre": "Artes Musicales",
+          "cursos": [
+            {
+              "nombre": "Piano",
+              "descripcion": "El programa de piano desarrolla habilidades musicales a través de cuatro áreas: teoría y lectura musical, repertorio e interpretación, técnica pianística, y comprensión profunda del instrumento, abarcando desde conceptos básicos hasta aspectos avanzados como armonía y transposición.",
+              "contenidos": [
+                "Elementos de teoría y lectoescritura musical",
+                "Repertorio e interpretación musical",
+                "Aspectos técnicos del piano",
+                "Aspectos funcionales"
+              ]
+            },
+            {
+              "nombre": "Canto",
+              "descripcion": "El programa de canto se enfoca en la técnica vocal, el autoconocimiento y la expresión. Se abordan principios de respiración, anatomía vocal, interpretación de canciones y desarrollo de técnicas como la proyección, el belting y la voz mixta, con énfasis en la improvisación y la expresión escénica.",
+              "contenidos": [
+                "Principios de la técnica vocal",
+                "Anatomía humana",
+                "Interpretación y estilos",
+                "Desarrollo de las técnicas vocales"
+              ]
+            },
+            {
+              "nombre": "Guitarra",
+              "descripcion": "El programa de guitarra combina teoría y práctica, explorando estilos populares y académicos, improvisación, y técnicas adecuadas. Se enfoca en la creatividad, el aprendizaje de armonía y solfeo, y el cuidado del instrumento.",
+              "contenidos": [
+                "Elementos teórico-prácticos",
+                "Improvisación y dinamismo",
+                "Lenguajes y estilos",
+                "Técnicas y cuidados"
+              ]
+            },
+            {
+              "nombre": "Ukelele",
+              "descripcion": "El programa de ukelele fomenta la ejecución musical en equipo, trabajando teoría, lectura musical y técnicas específicas del instrumento. Se exploran canciones, rasgueos, acompañamientos y la creación colectiva, mientras se adapta el repertorio a los intereses de cada estudiante para fomentar la creatividad y el trabajo en grupo.",
+              "contenidos": [
+                "Teoría y lectura musical",
+                "Cancioneros y repertorio",
+                "Rasgueos y acompañamientos",
+                "Ensambles musicales y creación colectiva"
+              ]
+            },
+            {
+              "nombre": "Violín o Viola",
+              "descripcion": "El programa de violín y viola combina técnica, expresión personal y trabajo en equipo. Se exploran músicas clásicas y populares, técnicas académicas y contemporáneas, y se fomenta la colaboración en ensambles para una interpretación más completa y contextualizada.",
+              "contenidos": [
+                "Escucha del cuerpo y aplicación musical",
+                "Músicas clásicas y populares",
+                "Técnicas académicas y contemporáneas",
+                "Uso contextualizado del instrumento"
+              ]
+            },
+            {
+              "nombre": "Flauta traversa",
+              "descripcion": "El programa de flauta traversa combina teoría musical, lectura de partituras y técnicas de ejecución. Se exploran métodos y repertorios variados, con énfasis en la respiración, la agilidad en los dedos y la fluidez del aire para lograr una interpretación precisa y de alto nivel.",
+              "contenidos": [
+                "Elementos de teoría y lectoescritura musical",
+                "Métodos y repertorio",
+                "Respiración, inhalación, exhalación y técnica"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Artes Plásticas",
+          "cursos": [
+            {
+              "nombre": "Dibujo Manga",
+              "descripcion": "El programa de dibujo manga enseña ilustración, anatomía y diseño de personajes, explorando la historia y técnicas del manga mientras se analizan obras profesionales para comprender la narración visual y el desarrollo de personajes.",
+              "contenidos": [
+                "Anatomía humana y animal",
+                "Escenarios y gestos",
+                "Diseño de personajes y vestimenta",
+                "Técnicas artísticas e historia del manga"
+              ]
+            },
+            {
+              "nombre": "Dibujo en diversos estilos",
+              "descripcion": "El programa de dibujo en diversos estilos enseña desde figuras simples hasta composiciones complejas, utilizando líneas de acción, gestos y técnicas académicas como bodegones para mejorar la observación y la profundidad en los dibujos.",
+              "contenidos": [
+                "Figuras simples y complejas",
+                "Líneas de acción y gestos",
+                "Dibujo académico y bodegones"
+              ]
+            },
+            {
+              "nombre": "Pintura",
+              "descripcion": "El taller de pintura invita a explorar la creatividad y la expresión emocional a través del arte. Se enfoca en el autoconocimiento y el desarrollo de habilidades motoras, enseñando técnicas de dibujo mientras se fomenta la libre expresión y el disfrute del proceso creativo.",
+              "contenidos": [
+                "Técnicas de dibujo",
+                "Autoconocimiento a través de la pintura",
+                "Habilidades motoras y creatividad"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Artes Escénicas",
+          "cursos": [
+            {
+              "nombre": "Teatro y expresión corporal",
+              "descripcion": "El taller de teatro y expresión corporal promueve la creatividad y la expresión a través de ejercicios teatrales y el juego. Se enfoca en el desarrollo de habilidades actorales y corporales, utilizando adaptaciones de textos literarios para incentivar la expresión oral y física.",
+              "contenidos": [
+                "Procesos actorales y corporales",
+                "Ejercicios teatrales",
+                "Adaptación de textos literarios"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Talleres Especiales",
+          "cursos": [
+            {
+              "nombre": "Manga y creación de historias",
+              "descripcion": "El curso de Manga y creación de historias enseña dibujo manga, anatomía, entintado y composición, enfocándose en la narración visual y el desarrollo de un estilo personal. Los estudiantes aprenden a crear obras atractivas mediante análisis de obras históricas y técnicas fundamentales.",
+              "contenidos": [
+                "Líneas y formas",
+                "Dibujo anatómico",
+                "Escenarios y vestimenta",
+                "Narración visual y estilo personal"
+              ]
+            },
+            {
+              "nombre": "Exploración creativa en artes plásticas",
+              "descripcion": "El taller de Exploración creativa en artes plásticas enseña dibujo y pintura, abarcando desde anatomía y perspectiva hasta composición y técnicas con pinceles, tizas y acuarelas, permitiendo a los estudiantes crear obras originales.",
+              "contenidos": [
+                "Conceptos básicos de dibujo",
+                "Dibujo anatómico y figuras orgánicas",
+                "Pintura y composición"
+              ]
+            },
+            {
+              "nombre": "Arte terapia",
+              "descripcion": "El taller de Arteterapia utiliza las artes plásticas para promover el bienestar y la salud mental, explorando temas como la autoestima y el autoconocimiento a través de pintura, dibujo y escultura, incluyendo la creación de alebrijes.",
+              "contenidos": [
+                "Resignificación de historia personal",
+                "Psicología y teoría psicoanalítica",
+                "Exploración grupal y bienestar mental"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
