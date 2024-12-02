@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  const dataUrl = '/JSON/talleres.json';
+  const dataUrl = '../JSON/talleres.json';
 
   // Consumir el JSON
   $.getJSON(dataUrl, function (data) {
